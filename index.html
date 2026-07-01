@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="#">John Doe</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com" target="_blank">
+        <i class="fab fa-github"></i>
+        <span>GitHub</span>
+      </a>
+
+      <a href="https://linkedin.com" target="_blank">
+        <i class="fab fa-linkedin"></i>
+        <span>LinkedIn</span>
+      </a>
+
+      <a href="mailto:john@example.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero-section" id="hero">
+      <div class="text">
+        <h2>Hi, I'm John 👋</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Reiciendis, dolorem, voluptatem inventore ...
+        </p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a>
+
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/headshot.webp" alt="John Doe headshot">
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills-section" id="skills">
+      <h2>Skills</h2>
+
+      <div class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit...
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.png" alt="HTML">
+          <span>HTML</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/css-logo.png" alt="CSS">
+          <span>CSS</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/js-logo.png" alt="JavaScript">
+          <span>JavaScript</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/node-logo.png" alt="Node">
+          <span>Node.js</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/react-logo.png" alt="React">
+          <span>React</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONY -->
+    <section class="testimony-section" id="testimony">
+      <h2>Testimony</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/testimony.jpg" alt="person">
+
+          <p>John Doe</p>
+          <p>CEO, Company</p>
+        </div>
+
+        <div class="text">
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit..."
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit...
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" rows="6"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
